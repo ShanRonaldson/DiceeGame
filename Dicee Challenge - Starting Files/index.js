@@ -32,7 +32,11 @@ else{
     document.querySelector("h1").innerHTML = "🚩 It's a Draw! 🚩 ";
 }
 
+// roll button
 
+function refreshPage(){
+    window.location.reload();
+}
 
 
 // document.getElementsByClassName("img1").setAttribute("src", "randomImageSource");
